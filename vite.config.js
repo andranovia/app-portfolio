@@ -6,7 +6,9 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-dom/client', 'framer-motion', 'react-scroll'], // Add 'react-dom' here
+      external: ['react', 'react-dom/client',
+       'framer-motion', 'react-scroll', '@material-ui/core/styles', 
+       '@mui/styles', 'prop-types', '@mui/material/styles', 'react-scroll'], 
     },
   },
 });
