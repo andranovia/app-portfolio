@@ -1,0 +1,52 @@
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root
+{
+    --bright: #F8F1F1;
+    --bright-second : #E8AA42;
+    --dark : #025464;
+    --middle : #27374D;
+    --blueCard : #DDF8FE;
+    --grey:  #272e38;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --hovertext : #526D82;
+}
+
+.App{
+  
+    overflow: hidden;
+    color: white;    
+
+
+}
+
+.button {
+    background: rgb(2, 2, 2);
+    border-radius: 34px;
+    border: none;
+    color: rgb(239, 234, 234);
+    font-size: 16px;
+    padding: 11px 26px 11px 26px; 
+    margin-left: 150px;
+    left: 15vh;
+    position: relative  ;
+  }
+  
+  .button:hover {
+    background: #272828;
+    cursor: pointer;
+
+    color: var(--middle);
+  }
+  
+ 
+
+  
+
+  
