@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-dom/client'], // Add 'react-dom' here
+      external: ['react-dom/client', 'framer-motion'], // Add 'react-dom' here
     },
   },
 });
